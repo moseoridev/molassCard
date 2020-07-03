@@ -14,7 +14,7 @@ def ask(p):
             print(f'틀렸습니다! 답은 {v[2-p]}에요.')
 
 
-ui = ''
+ui = 0
 while ui != 3:
     print('moseoriVoca에 오신 것을 환영합니다.\n\n1. 한국어 뜻 연습\n2. 스펠링 연습\n3. 종료\n')
     ui = int(input('모드 선택: '))
