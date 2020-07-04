@@ -3,22 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>moseoriVoca</title>
+    <title>molassCard</title>
+    <style>
+      * {
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      #vocaDiv {
+        display: none;
+      }
+    </style>
   </head>
   <body>
-    <h1>moseoriVoca</h1>
-    <div id="main">
-      <button id="e2k" onclick="pressed('e2k')">
-        한국어 뜻 연습
-      </button>
-      <button id="k2e" onclick="pressed('k2e')">스펠링 연습</button>
-    </div>
+    <header>
+      <a href="."><h1>molassCard</h1></a>
+    </header>
+
+    <section>
+      <div id="main">
+        <button id="e2k" onclick="pressed('e2k')">
+          한국어 뜻 연습
+        </button>
+        <button id="k2e" onclick="pressed('k2e')">스펠링 연습</button>
+      </div>
+
+      <div id="vocaDiv">
+        <h2 id="question"></h2>
+
+        <input type="text" id="answerBox" autocomplete="false" />
+        <input type="submit" id="scoring" value="채점" />
+      </div>
+    </section>
+
     <footer>
       <p>
         Made with &lt3 by
         <a href="https://github.com/moseoridev/">moseoridev</a>
       </p>
     </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
