@@ -40,7 +40,7 @@ function showVoca(k, m) {
     if (answerBox.value == m[i][1 - k]) {
       alert("정답입니다!");
     } else {
-      alert("땡! 정답은 " + m[i][1 - k] + "입니다!");
+      alert('땡! 정답은 "' + m[i][1 - k] + '"입니다!');
     }
     i++;
     mkQuestion();
