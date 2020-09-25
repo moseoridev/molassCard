@@ -23,6 +23,14 @@
       #vocaDiv {
         display: none;
       }
+
+      @media screen and (-webkit-min-device-pixel-ratio: 0) {
+        select,
+        textarea,
+        input {
+          font-size: 16px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -33,9 +41,7 @@
     <section>
       <div id="main">
         <h2>수행평가를 준비해 봅시다.</h2>
-        <button id="e2k" onclick="pressed('e2k')">
-          한국어 뜻 연습
-        </button>
+        <button id="e2k" onclick="pressed('e2k')">한국어 뜻 연습</button>
         <button id="k2e" onclick="pressed('k2e')">스펠링 연습</button>
       </div>
 
