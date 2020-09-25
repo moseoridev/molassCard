@@ -29,7 +29,7 @@ function showVoca(k, m) {
   function mkQuestion() {
     if (i > m.length) {
       alert("단어가 끝났습니다.");
-      location.reload(true);
+      location.reload();
       return;
     }
     answerBox.value = "";
