@@ -1,3 +1,6 @@
+var correct = new Audio("correct.mp3");
+var wrong = new Audio("wrong.mp3");
+
 function loadData(k) {
   var requestURL = "../voca.json";
   var request = new XMLHttpRequest();
@@ -38,8 +41,10 @@ function showVoca(k, m) {
 
   scoring.addEventListener("click", () => {
     if (answerBox.value == m[i][1 - k]) {
+      correct.play();
       alert("정답입니다!");
     } else {
+      wrong.play();
       alert('땡! 정답은 "' + m[i][1 - k] + '"입니다!');
     }
     i++;
