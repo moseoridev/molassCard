@@ -9,5 +9,5 @@ for line in csv.readlines():
     _t = [a[0], a[1].replace("\n", "").replace("\r", "")]
     J.append(_t)
 
-with open('voca.json', 'w') as f:
+with open('voca.json', 'w', encoding='UTF-8') as f:
     json.dump(J, f, ensure_ascii=False)
