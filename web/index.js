@@ -1,5 +1,7 @@
-var correct = new Audio("correct.mp3");
-var wrong = new Audio("wrong.mp3");
+var correctSound = new Audio("correct.mp3");
+var wrongSound = new Audio("wrong.mp3");
+var correctStat = 0;
+var wrongStat = 0;
 
 function loadData(k) {
   var requestURL = "../voca.json";
@@ -41,10 +43,14 @@ function showVoca(k, m) {
 
   scoring.addEventListener("click", () => {
     if (answerBox.value == m[i][1 - k]) {
-      correct.play();
+      correctSound.play();
+      correctStat++;
+      updateStat();
       alert("정답입니다!");
     } else {
-      wrong.play();
+      wrongSound.play();
+      wrongStat++;
+      updateStat();
       alert('땡! 정답은 "' + m[i][1 - k] + '"입니다!');
     }
     i++;
@@ -57,4 +63,9 @@ function showVoca(k, m) {
 function pressed(k) {
   document.getElementById("main").style.display = "none";
   loadData(k);
+}
+
+function updateStat() {
+  var statBox = document.getElementById("stat");
+  statBox.innerHTML = "정답: " + correctStat + " | 오답: " + wrongStat;
 }
