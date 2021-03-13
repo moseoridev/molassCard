@@ -1,11 +1,11 @@
 var CACHE_NAME = "my-site-cache-v1";
 var urlsToCache = [
-  "/index.html",
-  "/assets/audio/correct.mp3",
-  "/assets/audio/wrong.mp3",
-  "/assets/js/index.js",
-  "/assets/js/voca.json",
-  "/assets/css/index.css",
+  "index.html",
+  "assets/audio/correct.mp3",
+  "assets/audio/wrong.mp3",
+  "assets/js/index.js",
+  "assets/js/voca.json",
+  "assets/css/index.css",
 ];
 
 self.addEventListener("install", function (event) {
