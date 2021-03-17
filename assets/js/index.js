@@ -87,3 +87,9 @@ function updateStat() {
   var statBox = document.getElementById("stat");
   statBox.innerHTML = "정답: " + correctStat + " | 오답: " + wrongStat;
 }
+
+var form = document.getElementById("myForm");
+function handleForm(event) {
+  event.preventDefault();
+}
+form.addEventListener("submit", handleForm);

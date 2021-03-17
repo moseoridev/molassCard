@@ -1,4 +1,4 @@
-var CACHE_NAME = "my-site-cache-v2";
+var CACHE_NAME = "my-site-cache-v3";
 var urlsToCache = [
   "./index.html",
   "./assets/audio/correct.mp3",
@@ -50,6 +50,22 @@ self.addEventListener("fetch", function (event) {
 
         return response;
       });
+    })
+  );
+});
+
+self.addEventListener("activate", function (event) {
+  var cacheAllowlist = ["my-site-cache-v3", "blog-posts-cache-v1"];
+
+  event.waitUntil(
+    caches.keys().then(function (cacheNames) {
+      return Promise.all(
+        cacheNames.map(function (cacheName) {
+          if (cacheAllowlist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
     })
   );
 });
