@@ -55,7 +55,7 @@ self.addEventListener("fetch", function (event) {
 });
 
 self.addEventListener("activate", function (event) {
-  var cacheAllowlist = ["my-site-cache-v3", "blog-posts-cache-v1"];
+  var cacheAllowlist = ["my-site-cache-v3"];
 
   event.waitUntil(
     caches.keys().then(function (cacheNames) {
