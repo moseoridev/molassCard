@@ -1,4 +1,4 @@
-var CACHE_NAME = "my-site-cache-v4";
+var CACHE_NAME = "my-site-cache-v5";
 var urlsToCache = [
   "./index.html",
   "./assets/audio/correct.mp3",
@@ -55,7 +55,7 @@ self.addEventListener("fetch", function (event) {
 });
 
 self.addEventListener("activate", function (event) {
-  var cacheAllowlist = ["my-site-cache-v4"];
+  var cacheAllowlist = ["my-site-cache-v5"];
 
   event.waitUntil(
     caches.keys().then(function (cacheNames) {
