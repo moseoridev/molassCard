@@ -1,271 +1,127 @@
-≅ absurd` 터무니없는
-≅ given` ~을 고려할 때
-≅ national border` 국경
-≅ barrier` 장벽, 장애(물)
-≅ isolation `고립
-≅ nondisclosure agreement` 기밀 유지 협약서
-≅ vest `조끼
-≅ hand` (카드놀이에서 손에 쥔) 패
-≅ finding `연구 결과
-≅ expertise `전문 지식
-≅ perspective `관점
-≅ potential` 잠재적인; 잠재력
-≅ obvious` 분명한, 명백한
-≅ sensibility `(예술적) 감성[감수성]
-≅ fictional` 허구적인, 소설의
-≅ informative `정보를 제공하는, 교육적인
-≅ accompany` 동반하다, 동행하다
-≅ specify` 명시하다
-≅ neighborhood` 인근, 동네
-≅ in every sense of the word `어느 모로 보나
-≅ dwelling` 집, 주거
-≅ organize `준비하다
-≅ block party `가구(街區) 주민 파티
-≅ yard sale` 마당 세일(개인 주택의 마당에서 사용하던 물건을 파는 것)
-≅ connection `관계
-≅ snowball` 눈덩이처럼 불어나다
-≅ cleanup` (대)청소
-≅ take place` 거행되다, 개최되다
-≅ destroy` 말살하다, 죽이다
-≅ monumental `(어리석음 따위가) 어처구니없는, 대단한
-≅ denial `부정, 거부
-≅ hatred` 증오, 혐오
-≅ appreciate` ~의 진가를 인정하다
-≅ appeal` 호소, 매력
-≅ gain` (노력의 결과) ~에 도달하다, 얻다
-≅ divest `(의무 등으로부터) 벗어나게 하다, (책임 등을) 없애다
-≅ tangle` (실·머리카락 등이) 엉킨[얽힌] 것
-≅ spin` 회전하다, 뱅뱅 돌다
-≅ aquatic` 수생의, 물의
-≅ primate` 영장류
-≅ obsessively` 도가 지나치게
-≅ hardware `하드웨어, 장비
-≅ reveal `드러내다, 보여 주다
-≅ ultimate `근본적인, 궁극적인
-≅ temporary` 일시적인, 임시의
-≅ interruption` 중지, 중단
-≅ so-called` 소위, 이른바
-≅ tranquility` 평정, 차분함
-≅ precisely` 정확하게, 바로
-≅ realm` 영역, 범위
-≅ path` 길, 방향
-≅ fashionable` 유행하는
-≅ disconnect `분리하다, 연결을 끊다
-≅ characterize `~의 특징을 이루다
-≅ intense` 격렬한, 심한
-≅ debate` 논쟁, 토론
-≅ at issue `쟁점인, 문제가 되고 있는
-≅ presumed` 당연시되는, 추정된
-≅ overrule` 좌우하다, 지배하다
-≅ confusion` 혼란
-≅ lead away` ~을 끌고[데리고] 가다
-≅ numberless `무수한
-≅ empty` 공허한, 빈
-≅ controversy `논쟁
-≅ idle `헛된, 무익한
-≅ fancy` 공상
-≅ claim `요구하다, 주장하다
-≅ intellect` 지적 능력, 지성
-≅ advance` 발전시키다, 증진하다
-≅ experimental philosophy` 경험 철학
-≅ lift` (천막 따위를) 걷어치우다, 제거하다
-≅ species `종(種: 생물 분류의 기초 단위)
-≅ regenerate `재생하다
-≅ coexistence `공존
-≅ fictional` 허구적인
-≅ conservation` (자연) 보호
-≅ vegetation` 초목, 한 지방 특유의 식물
-≅ uneconomic `비경제적인, 수익이 안 나는
-≅ forestry `임업, 삼림지
-≅ live through` (살면서) ~을 겪다
-≅ extinction` 멸종
-≅ either-or` 양자택일의
-≅ proposition` 문제
-≅ inseparable` 분리할 수 없는
-≅ principle `원칙, 원리
-≅ copy `광고 문안
-≅ requirement` 필요조건
-≅ conceive` 상상하다, 마음속으로 품다
-≅ equipment` 장비, 설비
-≅ insincerity `정직하지 못함, 불성실
-≅ tremendous` 엄청난
-≅ temptation` 유혹
-≅ exaggerate `과장하다
-≅ hold onto` ~을 고수하다
-≅ preconception`선입견
-≅ indifference` 무관심
-≅ extreme `극단
-≅ phenomenon` 현상
-≅ autonomy` 자율성
-≅ fall into` ~에 빠지다
-≅ acknowledge` 인정하다
-≅ impose` 가하다
-≅ shutter` 덧문, 셔터
-≅ flip `휙 젖혀지다[젖히다]
-≅ snap` 딸깍하는 소리
-≅ arrange` 준비하다, 마련하다
-≅ inattention` 부주의
-≅ grant` 인정하다
-≅ mutual `상호 간의
-≅ retire` (기계 등을) 폐기하다
-≅ infrastructure` 사회[공공] 기반 시설
-≅ incorporate ~ into ...` ~을 …에 포함시키다
-≅ routine` 일상적인, 보통의
-≅ take ~ into account` ~을 고려하다
-≅ maintenance` 유지 보수
-≅ service life `사용 기간, 내구연한
-≅ screen `(적절한지) 확인하다[거르다], 가려내다
-≅ collapse `붕괴
-≅ allow for` ~을 가능하게 하다
-≅ modest` 적은, (크기·가격·중요성 등이) 대단하지 않은
-≅ down the road `미래에, 장차
-≅ from scratch` 맨 처음부터
-≅ assume` 추정하다, 추측하다
-≅ melodic `선율적인, 가락이 아름다운
-≅ represent` ~에 해당하다, ~의 표본을 나타내다
-≅ tribe` 부족, 종족
-≅ uniformly` 일률적으로, 균일하게
-≅ adapt` 적응하다
-≅ discern` 식별하다, 분별하다
-≅ derive` 유래하다, 파생하다
-≅ archaeology `고고학
-≅ recognise` 인정하다, 인식하다
-≅ at length` 상세히, 길게
-≅ remains` 유물, 유적
-≅ decay `부식하다, 썩다
-≅ make ~ of ... `…을 ~으로 이해하다
-≅ sculpture` 조각, 조소
-≅ craft` ~을 정교하게 만들다
-≅ constitute` 구성하다
-≅ definitive` 명확한, 한정적인
-≅ entity` 실체, 존재
-≅ raw material` 원자재, 원재료
-≅ turn ~ into ...` ~을 …으로 바꾸다
-≅ archive` (역사적) 기록 보관물
-≅ evidence` 증거
-≅ controversy` 논쟁
-≅ term `칭하다, 명칭을 붙이다
-≅ credibility` 진실성, 신뢰성
-≅ administration` 경영진, (대학) 본부
-≅ faculty `교수진
-≅ consultant` 상담가, 자문 위원
-≅ facilitate `원활히 진행시키다, 용이하게 하다
-≅ have nothing to do with` ~과 관계가 없다
-≅ interpersonal` 개인 간의
-≅ mutual `상호 간의
-≅ goodwill `호의, 친선
-≅ outstanding` 뛰어난, 눈에 띄는
-≅ reputation` 명성, 평판
-≅ opt to do` ~하기로 선택하다
-≅ be blessed with` (복을 받아) ~을 누리다[갖다]
-≅ intellect `지성
-≅ be up to` ~에 달려 있다
-≅ intellectual` 지식인
-≅ capacity` 능력
-≅ pretend` ~인 척하다
-≅ otherwise `그렇지 않게, 다르게
-≅ perpetual` 끊임없는
-≅ potential` 잠재력
-≅ humbly` 겸허하게
-≅ in the sense that` ~이라는 점에서
-≅ tackle `다루다
-≅ equivalent `상응하는 것, 대응하는 것
-≅ relate `설명하다, 이야기하다
-≅ folklore` 민간전승
-≅ quotation` 인용, 인용문
-≅ Hellenistic `헬레니즘에 관한, 그리스 역사[언어·문화]의
-≅ analyze` 분석하다
-≅ validation` 확인, 비준
-≅ testimony` 증거, 증언
-≅ archaeology` 고고학
-≅ keen to do` ~하고 싶은
-≅ minority `소수(의)
-≅ oppressed `억압받는
-≅ ignorance` 무지
-≅ unacceptable` 용납할 수 없는
-≅ uncivilised `미개한
-≅ consideration `배려, 고려
-≅ play on` ~을 이용하다
-≅ prejudice` 편견
-≅ awareness` 인식
-≅ existing `기존의
-≅ addiction `중독
-≅ effectively` 효과적으로
-≅ assign ~ to ...` ~을 …으로 규정하다
-≅ potentially` 잠재적으로
-≅ status `상태, 지위, 신분
-≅ defensive` 방어적인
-≅ constructive` 건설적인
-≅ arena `경기장
-≅ by its very nature` 본래, 본질적으로
-≅ performance` 경기력, 성과
-≅ routine `루틴(규칙적으로 하는 운동의 통상적인 순서와 방법)
-≅ flexibility` 유연성
-≅ adjust to` ~에 적응하다
-≅ readily` 쉽게
-≅ unforeseen` 예상치 못한, 뜻밖의
-≅ opponent` 상대, 적수
-≅ insufficient` 불충분한
-≅ equipment` 장비
-≅ disturbing` 불안감을 주는
-≅ disruptive `해로운, 파괴적인
-≅ appropriately` 적절하게, 제대로
-≅ occurrence` 사건
-≅ unsettled` 불안정한
-≅ distracted `산만한
-≅ well-organized` 잘 짜인
-≅ positively `긍정적으로, 분명하게
-≅ silly` 유치한, 바보 같은
-≅ misadventure `불운한 일, 불행
-≅ primitive` 원시 사회의, 원시적인
-≅ dismiss `(고려할 가치가 없다고) 묵살[일축]하다
-≅ trivial `사소한, 하찮은
-≅ universal` 보편적인
-≅ unified` 통일된
-≅ psyche` 정신
-≅ medieval` 중세의
-≅ primarily` 주로
-≅ visible` (눈에) 보이는
-≅ cathedral `성당
-≅ literature `문헌, 문학 (작품)
-≅ standpoint` 관점
-≅ sophisticated` 정교한
-≅ laboratory` 실험실
-≅ qualitative `정성적인(물질의 성분이나 성질을 밝히는), 질적인
-≅ underway `진행 중인
-≅ multiplicity `다양성, 다수
-≅ clockwork` 시계 장치
-≅ astronomical` 천문의
-≅ simulator` 모의실험 장치
-≅ scholastic philosophy `스콜라 철학
-≅ glorify `찬미하다
- ≅ put across `~을 이해시키다
-  ≅ unsustainable` 지속 불가능한
-≅ wetland` 습지
- ≅ wasteland` 황무지, 불모지
-  ≅ coastal` 연안[해안]의
-≅ disposable `마음대로 쓸 수 있는
- ≅ accelerate `가속화되다
-  ≅ cut down on `~을 줄이다
-≅ violation` 침해, 위반
-≅ unsustainable` 지속 불가능한 
-≅ draw on` ~을 이용하다
- ≅ overdrawn `초과 인출된
-≅ account` 계좌
- ≅ affordable` 적절한 값으로 구할 수 있는
-≅ bankrupt` 지급 불능으로 만들다, 파산시키다 
-≅ balance sheet` 대차 대조표
-≅ inherit` 물려받다
- ≅ prospect` 가망, 전망
-  ≅ collect on `~을 상환받다, ~을 수령하다
-≅ get away with` ~을 모면하다
-≅ challenge` ~에 이의를 제기하다
-≅ competent` 유능한, 능력 있는 
-≅ agent` 행위자 
-≅ qualify` 자격을 주다
-≅ decent `예의 바른 
-≅ nurture` 양육, 교육
- ≅ grasp` 이해하다, 파악하다
-≅ context `환경, 상황, 배경
- ≅ oversimplified `지나치게 단순화된 
- ≅ nonsensical` 말이 안 되는, 터무니없는
+≅ inner circle `핵심 집단
+≅ vastly `매우, 막대하게
+≅ underestimate `과소평가하다
+≅ responsiveness `호응, 관심(도)
+≅ acquaintance` 지인, 아는 사람
+≅ reach out`연락을 취하다
+≅ lead `실마리, 단서
+≅ resent` 분개하다
+≅ trauma `정신적 외상
+≅ contrast` 뚜렷한 차이, 대조
+≅ apparent `명백한, 분명한
+≅ despair` 절망, 자포자기
+≅ intensely` 열심히
+≅ refocus` 초점을 다시 맞추다
+≅ profound `심오한
+≅ routine` (판에 박힌) 일상
+≅ platform` 플랫폼, 기반
+≅ tolerance `관용, 포용력
+≅ identify ~ as ...` ~을 …이라고 여기다
+≅ beneficiary `수혜자, 수익자
+≅ adopt` (특정한 방식이나 자세를) 쓰다[취하다]
+≅ level `(차별을) 없애다, (신분·차이 등을) 평등하게 하다
+≅ replicate` 되풀이하다, 모사[복제]하다
+≅ amplify` 확대하다, 증폭하다
+≅ reinforce `강화[증강]하다
+≅ uneven` 공평[공정]하지 않은
+≅ pros and cons` 장단점, 찬반양론
+≅ go hand in hand` 밀접하게 관련되다
+≅ mirror `반영하다
+≅ magnify `확대하다
+≅ privacy `사적인 자유, 사생활, 혼자 있는 상태
+≅ autonomy `자율성, 자주성
+≅ emerge `등장하다, 생겨나다
+≅ separation` 분리, 구분
+≅ plumbing `배관, 수도 시설
+≅ isolation` 고립, 격리
+≅ household `가정
+≅ stuffy `후텁지근한, 무더운
+≅ porch `현관
+≅ institution` 제도, 관습
+≅ self-contained `자족적인, 자립하는
+≅ multilingual `다중 언어의
+≅ immigrant` 이주자
+≅ imperialist `제국주의의; 제국주의자
+≅ colonial` 식민지의
+≅ expansion` 팽창
+≅ presence` 존재
+≅ relatively `비교적, 상대적으로
+≅ bureaucrat `관료
+≅ missionary `선교사
+≅ explicit` 명시적인
+≅ imperial` 제국주의의, 제국의
+≅ colonize` 식민지화하다
+≅ expansionist `팽창주의의; 팽창주의자
+≅ pragmatic `실용적인
+≅ prestige` 위신, 명성
+≅ outlive` (~보다) 더 오래 지속되다
+≅ dominate `지배하다
+≅ adherence `고수
+≅ variety` (언어의) 이형태, 변형
+≅ graduate student `대학원생
+≅ revolution` 혁명
+≅ instantly `즉시
+≅ reference `참고 문헌
+≅ encounter` 접하다, 마주치다
+≅ refresh` 되살리다
+≅ quote `인용문
+≅ reinforce `강화하다
+≅ big picture `전체적인 상황
+≅ unintentional` 고의가 아닌, 무심결의
+≅ greeting` 인사, 인사말
+≅ eyebrow` 눈썹
+≅ conscious `의식적인, 자각하는
+≅ alter 바꾸다,` 고치다
+≅ interpretation `해석, 이해
+≅ demonstrate` 입증하다, 증명하다
+≅ identical` 동일한, 같은
+≅ nonverbal` 비언어적(인)
+≅ evolutionary` 진화의
+≅ unity `통일성, 단일(성), 일치
+≅ universal `보편적인, 일반적인
+≅ instinctual` 본능적인
+≅ innate `선천적인, 타고난
+≅ hard-wired` 타고난, (하드웨어에) 내장된
+≅ correspond` 부합하다, 일치하다
+≅ auditory `청각의
+≅ sensory `감각의
+≅ trigger `자극, 계기
+≅ physiological `생리적인
+≅ confront `(아무를) 마주치게 하다
+≅ sensation` 기분, 느낌
+≅ determine `결정하다
+≅ a body of` 다수의, 일단의
+≅ breakthrough`획기적인 발전
+≅ alteration `변화
+≅ contemporary `(우리와 동시대인) 현대의, 그 당시의
+≅ insight `식견, 통찰
+≅ psychoanalytic` 정신 분석학적인
+≅ unconscious `무의식의
+≅ infant `유아
+≅ affectionate`다정한, 애정 어린
+≅ vary `변화를 주다, 바꾸다
+≅ utter` 말하다, 입 밖에 내다
+≅ intonation `억양
+≅ disapprove` 못마땅해[탐탁찮아] 하다
+≅ indicate` 나타내다, 보여 주다
+≅ approval` 인정, 찬성
+≅ signal` 표하다, 신호를 주다
+≅ establish` 입증하다, 확증하다
+≅ a series of `일련의
+≅ prohibitive `금지하는
+≅ stretch `(기술·지능 등을) 최대한 발휘하다
+≅ inexperienced` 미숙한, 경험이 없는
+≅ challenge` (~하도록) 자극하다
+≅ take on `(일 등을) 떠맡다
+≅ build on `~을 추가하다, ~을 증축하다
+≅ love affair `(무엇에 대한) 열광
+≅ commerce `상업
+≅ unprecedented` 전례가 없는, 미증유의
+≅ vast` 거대한, 광대한
+≅ warehouse` 창고
+≅ specialist shop `전문점
+≅ precious` 귀중한
+≅ open on to `~으로 통하다[이어지다]
+≅ double as `~으로도 쓰이다
+≅ alley` 골목
+≅ seal` 봉쇄하다, 막다
