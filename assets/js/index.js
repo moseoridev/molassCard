@@ -23,7 +23,7 @@ var wrongStat = 0;
 
 function loadData(k) {
   var chapter = document.getElementById("chapter").value;
-  var requestURL = "assets/js/" + chapter + "voca.json";
+  var requestURL = "assets/js/" + chapter + ".json";
   var request = new XMLHttpRequest();
   var chapter = document.getElementById("chapter");
   request.open("GET", requestURL);

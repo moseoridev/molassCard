@@ -1,11 +1,11 @@
-var CACHE_NAME = "my-site-cache-v8";
+var CACHE_NAME = "my-site-cache-v9";
 var urlsToCache = [
   "./index.html",
   "./assets/audio/correct.mp3",
   "./assets/audio/wrong.mp3",
   "./assets/js/index.js",
-  "./assets/js/2강.json",
-  "./assets/js/3강.json",
+  "./assets/js/2차.json",
+  "./assets/js/3차.json",
   "./assets/css/index.css",
 ];
 
