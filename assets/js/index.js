@@ -1,29 +1,16 @@
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function () {
-    navigator.serviceWorker.register("sw.js").then(
-      function (registration) {
-        // Registration was successful
-        console.log(
-          "ServiceWorker registration successful with scope: ",
-          registration.scope
-        );
-      },
-      function (err) {
-        // registration failed :(
-        console.log("ServiceWorker registration failed: ", err);
-      }
-    );
-  });
-}
-
 var correctSound = new Audio("assets/audio/correct.mp3");
 var wrongSound = new Audio("assets/audio/wrong.mp3");
 var correctStat = 0;
 var wrongStat = 0;
 
+function pressed(k) {
+  document.getElementById("main").hidden = true;
+  loadData(k);
+}
+
 function loadData(k) {
   var chapter = document.getElementById("chapter").value;
-  var requestURL = "assets/js/" + chapter + ".json";
+  var requestURL = "assets/json/" + chapter + ".json";
   var request = new XMLHttpRequest();
   var chapter = document.getElementById("chapter");
   request.open("GET", requestURL);
@@ -39,7 +26,7 @@ function showVoca(k, m) {
   m.sort(function () {
     return 0.5 - Math.random();
   });
-  var vocaDiv = document.getElementById("vocaDiv");
+  var questionDiv = document.getElementById("questionDiv");
   var answerBox = document.getElementById("answerBox");
   var scoring = document.getElementById("scoring");
   var question = document.getElementById("question");
@@ -49,7 +36,7 @@ function showVoca(k, m) {
   } else {
     k = 1;
   }
-  vocaDiv.style.display = "block";
+  questionDiv.hidden = false;
 
   function mkQuestion() {
     if (i > m.length) {
@@ -63,12 +50,12 @@ function showVoca(k, m) {
 
   scoring.addEventListener("click", () => {
     if (answerBox.value == m[i][1 - k]) {
-      correctSound.play();
+      playSound("correct");
       correctStat++;
       updateStat();
       alert("정답입니다!");
     } else {
-      wrongSound.play();
+      playSound("wrong");
       wrongStat++;
       updateStat();
       alert('땡! 정답은 "' + m[i][1 - k] + '"입니다!');
@@ -80,18 +67,46 @@ function showVoca(k, m) {
   mkQuestion();
 }
 
-function pressed(k) {
-  document.getElementById("main").style.display = "none";
-  loadData(k);
-}
-
 function updateStat() {
   var statBox = document.getElementById("stat");
   statBox.innerHTML = "정답: " + correctStat + " | 오답: " + wrongStat;
 }
 
-var form = document.getElementById("myForm");
+function soundSetting() {
+  _toggle = document.getElementById("soundFlag");
+  if (_toggle.innerHTML === "켜짐") {
+    _toggle.innerHTML = "꺼짐";
+    localStorage.setItem("soundSetting", JSON.stringify([false]));
+  } else {
+    _toggle.innerHTML = "켜짐";
+    localStorage.setItem("soundSetting", JSON.stringify([true]));
+  }
+}
+
+function playSound(b) {
+  __toggle = document.getElementById("soundFlag");
+  if (__toggle.innerHTML === "켜짐") {
+    if (b === "correct") {
+      correctSound.play();
+    } else {
+      wrongSound.play();
+    }
+  }
+}
+
+var ansform = document.getElementById("answerForm");
 function handleForm(event) {
   event.preventDefault();
 }
-form.addEventListener("submit", handleForm);
+ansform.addEventListener("submit", handleForm);
+
+toggle = document.getElementById("soundFlag");
+if (localStorage["soundSetting"]) {
+  if (JSON.parse(localStorage.getItem("soundSetting"))[0]) {
+    toggle.innerHTML = "켜짐";
+  } else {
+    toggle.innerHTML = "꺼짐";
+  }
+} else {
+  toggle.innerHTML = "켜짐";
+}

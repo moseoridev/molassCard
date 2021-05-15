@@ -3,62 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#B12A34" />
-    <title>molassCard</title>
-    <link rel="stylesheet" href="assets/css/index.css" />
-    <link rel="manifest" href="manifest.json" />
-    <link rel="icon" href="icons/favicon-16.png" sizes="16x16" />
-    <link rel="icon" href="icons/favicon-48.png" sizes="48x48" />
-    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <title>Pure CSS test</title>
+    <link rel="stylesheet" href="assets/css/pure-min.css" />
+    <link rel="stylesheet" href="assets/css/grids-responsive-min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header>
-      <a href="."><h1>molassCard</h1></a>
-    </header>
-
-    <section>
-      <div id="main">
-        <h2>수행평가를 준비해 봅시다.</h2>
-        <select id="chapter">
-          <option value="2차">2차</option>
-          <option value="3차" selected>3차</option>
+    <div class="header">
+      <h1><a href=".">molassCard</a></h1>
+      <h2>쉽고 빠른 단어 학습</h2>
+    </div>
+    <div id="main" class="content">
+      <h3>오늘은 무엇을 배울까요?</h3>
+      <form class="pure-form pure-form-stacked">
+        <select title="chapter" id="chapter">
+          <option>2차</option>
+          <option selected>3차</option>
         </select>
-        <br />
-        <br />
-        <button id="e2k" onclick="pressed('e2k')">뜻 연습</button>
-        <button id="k2e" onclick="pressed('k2e')">철자 연습</button>
-      </div>
-
-      <div id="vocaDiv">
+        <button
+          type="button"
+          class="pure-button button-small button-round button-green"
+          onclick="pressed('e2k')"
+        >
+          뜻 연습
+        </button>
+        <button
+          type="button"
+          class="pure-button button-small button-round button-orange"
+          onclick="pressed('k2e')"
+        >
+          철자 연습
+        </button>
+      </form>
+    </div>
+    <div id="questionDiv" class="content" hidden>
+      <form
+        id="answerForm"
+        autocomplete="off"
+        class="pure-form pure-form-stacked"
+      >
         <h2 id="question"></h2>
-        <form id="myForm">
-          <input
-            type="text"
-            id="answerBox"
-            autocomplete="false"
-            autocorrect="off"
-            autocapitalize="none"
-          />
-          <input
-            type="submit"
-            id="scoring"
-            placeholder="정답을 입력해 주세요!"
-            value="채점"
-          />
-        </form>
-        <br />
+        <input
+          type="text"
+          id="answerBox"
+          aria-label="Answer"
+          autocorrect="off"
+          autocapitalize="none"
+        />
+        <button class="pure-button button-round button-maroon" id="scoring">
+          채점
+        </button>
         <p id="stat">정답: 0 | 오답: 0</p>
-        <button onclick="location.reload(true)">메인으로</button>
+        <button
+          class="pure-button button-round button-blue"
+          onclick="javascript:location.reload(true)"
+        >
+          처음으로
+        </button>
+      </form>
+    </div>
+    <div class="footer pure-g">
+      <div class="pure-u-1 pure-u-md-1-2">
+        소리: <a id="soundFlag" href="javascript:soundSetting()">켜짐</a>
       </div>
-    </section>
-
-    <footer>
-      <p>
+      <div class="pure-u-1 pure-u-md-1-2">
         made with ❤️ by
-        <a href="https://github.com/moseoridev/">moseoridev</a>
-      </p>
-    </footer>
-
+        <a href="https://github.com/moseoridev/" id="my-github">moseoridev</a>
+      </div>
+    </div>
     <script src="assets/js/index.js"></script>
   </body>
 </html>

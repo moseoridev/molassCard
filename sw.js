@@ -1,12 +1,16 @@
-var CACHE_NAME = "my-site-cache-v9";
+var CACHE_NAME = "my-site-cache-v10";
 var urlsToCache = [
   "./index.html",
   "./assets/audio/correct.mp3",
   "./assets/audio/wrong.mp3",
   "./assets/js/index.js",
-  "./assets/js/2차.json",
-  "./assets/js/3차.json",
+  "./assets/json/2차.json",
+  "./assets/json/3차.json",
   "./assets/css/index.css",
+  "./assets/css/grids-responsive-min.css",
+  "./assets/css/pure-min.css",
+  "./assets/fonts/BinggraeMelona-Bold.woff",
+  "./assets/fonts/RIDIBatang.woff",
 ];
 
 self.addEventListener("install", function (event) {

@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "RIDIBatang";
+  src: url("../fonts/RIDIBatang.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BinggraeMelona-Bold";
+  src: url("../fonts/BinggraeMelona-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: "RIDIBatang";
+}
+
+body {
+  line-height: 1.6;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#effaff),
+    to(#d9e7ff)
+  );
+  background: linear-gradient(90deg, #effaff 0%, #d9e7ff 80%);
+}
+
+#chapter {
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.content,
+.header {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.header {
+  font-family: "BinggraeMelona-Bold";
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid rgb(207, 204, 204);
+  letter-spacing: 0.05em;
+}
+
+.header h1 {
+  font-size: 320%;
+}
+
+.header h2 {
+  color: rgb(68, 68, 68);
+}
+
+.header h1,
+.header h2 {
+  font-weight: 100;
+  margin: 0;
+}
+
+.header a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(45deg, #09009f, #1cc47e 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 1em;
+  max-width: 768px;
+  text-align: center;
+}
+
+.button-small {
+  font-size: 80%;
+}
+
+.button-round {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-green {
+  background: rgb(28, 184, 65);
+}
+
+.button-orange {
+  background: rgb(223, 117, 20);
+}
+
+.button-maroon {
+  background: rgb(202, 60, 60);
+  /* this is a maroon */
+}
+
+.button-blue {
+  background: rgb(66, 184, 221);
+  /* this is a light blue */
+}
+
+.footer {
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+}
+
+#my-github {
+  text-decoration: underline;
+  color: rgb(73, 170, 209);
+}
+
+#answerBox {
+  margin: auto;
+}
+
+#question {
+  margin: 0 0 0.5em 0;
+  font-size: 1.7em;
+}
+
+#scoring {
+  margin-top: 1em;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
