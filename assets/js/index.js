@@ -70,6 +70,9 @@ function showVoca(k, m) {
 function updateStat() {
   var statBox = document.getElementById("stat");
   statBox.innerHTML = "정답: " + correctStat + " | 오답: " + wrongStat;
+  " | 정답률: " +
+    ((correctStat / (correctStat + wrongStat)) * 100).toFixed(2) +
+    "%";
 }
 
 function soundSetting() {
