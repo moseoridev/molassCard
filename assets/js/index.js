@@ -75,7 +75,7 @@ function updateStat() {
     " | 오답: " +
     wrongStat +
     " | 정답률: " +
-    ((correctStat / (correctStat + wrongStat)) * 100).toFixed(2) +
+    ((correctStat / (correctStat + wrongStat)) * 100).toFixed(1) +
     "%";
 }
 
