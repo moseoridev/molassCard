@@ -23,5 +23,5 @@ for v in voca:
     vocalist.append([v, voca[v]])
 f.close()
 
-with open('assets/js/voca.json', 'w', encoding='UTF-8') as f:
+with open('assets/json/voca.json', 'w', encoding='UTF-8') as f:
     json.dump(vocalist, f, ensure_ascii=False)
